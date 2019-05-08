@@ -1,0 +1,192 @@
+@charset "UTF-8";
+
+
+.modal-header {
+	background-color: #fff3cd;
+}
+
+.modal-dialog {
+    min-height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto;
+}
+
+@media(max-width: 768px) {
+  .modal-dialog {
+    min-height: calc(100vh - 20px);
+  }
+}
+
+.page-frame {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:25px;
+	margin-bottom:0px;
+	max-width:850px;
+}
+
+.title {
+	font-size:175%;
+	padding-bottom: 4px;
+	font-weight:bold;
+	font-family: 'Lato', sans-serif;
+}
+
+.subtitle {
+	font-size:100%;
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+}
+
+.context {
+	padding:15px 15px 15px 15px;
+	clear: both;
+	border: 1px solid #ddd;
+	background: #fff;
+	font-size:100%;
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+}
+
+.u1 {
+	/*padding-top:20px;*/
+	clear: both;
+	border: 1px solid #ddd;
+	background: #fff;
+	font-size:100%;
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+}
+
+.section {
+	font-weight:bold;
+}
+
+body {
+  font-size:100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: 'Lato', sans-serif;
+}
+
+a:link    {
+	text-decoration: none;
+	/*color: #000;*/
+	color: #39F;
+	/*color: #39F;*/
+}
+a:visited {
+	text-decoration: none;
+	/*color: #000;*/
+	color: #39F;
+}
+
+a:active  {
+	text-decoration: none;
+	color: #000;
+}
+a:hover   {
+	text-decoration: underline;
+	color: #39F;
+}
+
+.publications {
+	clear: both;
+	padding:5px 5px 5px 5px;
+	border: 1px solid #ddd;
+	background: #fff;
+	display: table;
+}
+
+.publication {
+	display: table-row;
+	/*background-color: blue;*/
+}
+
+.publication_image {
+	display: table-cell;
+	/*width: 75;*/
+	/*background-color: red;*/
+	padding:2px 5px 2px 2px;
+	margin:25px 25px 25px 25px;
+}
+
+.publication_info {
+	display: table-cell;
+	width: 100%;
+	vertical-align: middle;
+	/*background-color: yellow;*/
+	padding:2px 2px 2px 4px;
+	/*margin:25px 25px 25px 25px;*/
+}
+
+.publication_title
+{
+	/*font-weight:bold;*/
+	font-weight:normal;
+}
+
+h1
+{
+	padding-top:11px;
+	padding-left:5px;
+	padding-bottom: 0px;
+	font-size: 130%;
+	font-weight: 700;
+}
+
+.h2
+{
+	clear: both;
+	padding:4px 4px 4px 8px;
+	border: 1px solid #ddd;
+	border-top: 0px solid #ddd;
+	border-bottom: 0px solid #ddd;
+	background: #fff;
+	font-size: 100%;
+	font-weight: 400;
+}
+
+.h1_background
+{
+	clear: both;
+	margin-bottom: 1.5em;
+	background: #eee;
+}
+
+.publication_authors
+{
+	/*font-size: 80%;*/
+}
+
+.publication_venue
+{
+	font-size: 90%;
+	color:#999999;
+}
+
+.publication_url
+{
+	font-size: 90%;
+}
+
+.thesis_info
+{
+	/*font-weight: 300;*/
+}
+
+.class_desc {
+	/*font-weight:bold;*/
+	/*font-weight:normal;*/
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+
+}
+
+.class_offerings
+{
+	font-size: 90%;
+	/*color:#999999;*/
+}
