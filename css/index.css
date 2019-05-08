@@ -24,7 +24,7 @@
 	margin-right:auto;
 	margin-top:25px;
 	margin-bottom:0px;
-	max-width:850px;
+	max-width:875px;
 }
 
 .title {
@@ -111,7 +111,7 @@ a:hover   {
 	display: table-cell;
 	/*width: 75;*/
 	/*background-color: red;*/
-	padding:3px 5px 3px 3px;
+	padding:4px 5px 4px 4px;
 	margin:25px 25px 25px 25px;
 }
 
