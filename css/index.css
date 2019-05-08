@@ -103,6 +103,7 @@ a:hover   {
 
 .publication {
 	display: table-row;
+	background: #fff;
 	/*background-color: blue;*/
 }
 
